@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Movie Information Finder</title>
+    <!--[if lt IE 9]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <!-- Movie.html -->
+  <form action="" method="post" id="MovieForm" novalidate>
+    <legend> Movie Information Finder</legend>
+    <fieldset>
+      <div>
+        <label for="title">title</label>
+        <input type="text" name="title" id="title" placeholder = "enter title">
+      </div>
+      <div>
+        <div>
+        <label for="poster">poster</label>
+        <input type="text" name="poster" id="poster" placeholder = "enter poster url">
+      </div>
+      <div>
+        <label for="actor">actor</label>
+        <input type="text" name="actor" id="actor" placeholder = "enter actor url">
+      </div>
+    </fieldset>
+    <input type="submit" value="Calculate"
+               id="submit">
+  </form>
+  <script src="js/movie.js"></script>
+</body>
+</html>
